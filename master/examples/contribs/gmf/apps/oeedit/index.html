@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{mainCtrl.lang}}" ng-app="app" ng-controller="OEEditController as mainCtrl">
   <head>
-    <title>{{'ObjectEditing - Edit Application'|translate}}</title>
+    <title ng-bind-template="{{'ObjectEditing - Edit Application'|translate}}">GeoMapFish</title>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="image/favicon.ico"/>
     <link rel="stylesheet" href="../../build/oeedit.css">
@@ -168,7 +168,7 @@
     <script src="../../../../lib/watchwatchers.js"></script>
     <script>
       (function() {
-        var cacheVersion = '276304e92fe2159fb247b97e3e92342c8790b94d';
+        var cacheVersion = 'c9113f7447e11cc0c009d484b6e2600427291777';
         var urlElements = window.location.pathname.split('/');
 
         var angularLocaleScriptUrlElements = urlElements.slice(0, urlElements.length - 3);
