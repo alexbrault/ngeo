@@ -60,7 +60,9 @@ either log in or ask for a password reset.</p>
 <p>Once logged in, the &quot;logout&quot; form is shown, which allows the user to either
 log out or change his or her password.</p>
 <p>Example:</p>
-<pre class="prettyprint source"><code> &lt;gmf-authentication>&lt;/gmf-authentication></code></pre>
+<pre class="prettyprint source"><code> &lt;gmf-authentication
+   gmf-authentication-allow-password-change=&quot;true&quot;>
+ &lt;/gmf-authentication></code></pre>
 </div>
 
 
@@ -71,6 +73,52 @@ log out or change his or her password.</p>
 
 
 
+
+
+    <h5>HTML attributes:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>gmf-authentication-allow-password-change</code></td>
+            
+
+            <td class="type">
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Whether to
+    show the change password button. Default to true.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
 
 
 
@@ -106,7 +154,7 @@ log out or change his or her password.</p>
     
     <div class="tag-source">
     
-        <a href="https://github.com/camptocamp/ngeo/blob/master/contribs/gmf/src/directives/authenticationdirective.js#L47">contribs/gmf/src/directives/authenticationdirective.js:47</a>
+        <a href="https://github.com/camptocamp/ngeo/blob/master/contribs/gmf/src/directives/authenticationdirective.js#L51">contribs/gmf/src/directives/authenticationdirective.js:51</a>
     </div>
     
 
